@@ -1,0 +1,103 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+  height: 70%;
+  
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  background-color: #96c6f6;
+}
+
+header img {
+  width: 100px;
+  height: auto;
+}
+
+h1 {
+  font-size: 2 rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.navbar {
+  display: flex;
+  list-style: none; /* Remove default bullet points */
+  margin: 10px; /* Remove default margin */
+  padding: 30px; /* Remove default padding */
+  width: 100%;
+}
+
+.navbar li {
+  margin: 0 1rem; /* Add some margin between list items */
+}
+
+.nav-btn {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color from parent element */
+  padding: 1rem 2rem; /* Add padding for buttons */
+  border: 1px solid #ddd; /* Add a light border */
+  border-radius: 4px; /* Add rounded corners */
+  transition: background-color 0.2s ease-in-out; /* Add smooth hover effect */
+}
+
+.nav-btn:hover {
+  background-color: #f98d8d; /* Change background color on hover */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  background-color: aliceblue;
+ 
+}
+
+#search-bar {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#search-button {
+  padding: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
